@@ -108,6 +108,7 @@ section {
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    max-width: 1040px;
 }
 
 .section-title {
@@ -217,4 +218,35 @@ section {
 .resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact style */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 50px;
+    margin-top: 100px;
+}
+.contact a {
+    text-decoration: none;
+    margin-top: 30px;
+    letter-spacing: 15px;
+}
+.contact-title {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"],textarea {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 0 18px 30px;
+    border: 0;
 }
