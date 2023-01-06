@@ -18,6 +18,17 @@
     padding: 18px 35px;
 }
 
+.btn-second {
+    color: #FD6E0A;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -86,11 +97,13 @@ main {
     max-width: 1040px;
     margin: 0 auto;
 }
+section {
+    margin-top: 130px;
+}
 
 /* About section styles */
 
 .about {
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -100,7 +113,7 @@ main {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: #181818;
 }
 
@@ -131,4 +144,37 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* What i Do styles */
+
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+.section-description {
+    margin-bottom: 50px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
